@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# IDE settings
+.idea/
+.vscode/
+
+# App data (contains user accounts and password hashes) and uploaded pictures
+data.json
+images/
+
+# OS files
+.DS_Store
+Thumbs.db
