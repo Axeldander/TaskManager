@@ -48,9 +48,7 @@ access violation (rejected), and printing a progress summary.
 ## Design decisions made to unblock implementation
 
 These were left as open questions in the spec sheet. I picked reasonable
-defaults so the code could be written — **your team should confirm or
-override these** and note the decision in your report (Section 9 of the
-spec sheet):
+defaults so the code could be written.
 
 1. **Status transitions:** `todo → ongoing → done`; any active task can go
    to `cancelled` or `failed`; `done`/`failed`/`cancelled` are terminal.
@@ -75,7 +73,7 @@ spec sheet):
 - Admins can still change task status through the backend (spec says only the assignee)
 - Automated test suite (recommended next step — see below)
 
-## Suggested next steps
+## TODO
 
 1. Confirm or override the design decisions above as a team, and update
    this README + the spec sheet's Section 9 accordingly.
